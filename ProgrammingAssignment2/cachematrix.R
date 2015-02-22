@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## These functions enable the caching of the calculated inverse of a matrix
 ## so that the calculation does not need to be repeated every time it is used.
 
@@ -17,10 +18,19 @@ makeCacheMatrix <- function(x = matrix()) {
         list(set = set, get = get,
              setmatrix = setmatrix,
              getmatrix = getmatrix)
+=======
+## Put comments here that give an overall description of what your
+## functions do
+
+## Write a short comment describing this function
+
+makeCacheMatrix <- function(x = matrix()) {
+>>>>>>> 7f657dd22ac20d22698c53b23f0057e1a12c09b7
 
 }
 
 
+<<<<<<< HEAD
 ## This function calculates the inverse of the original matrix.
 ## If this calculation has already been done, the result is returned.
 
@@ -39,4 +49,10 @@ cacheSolve <- function(x, ...) {
         chkm <- m
         x$setmatrix(m)
         m        
+=======
+## Write a short comment describing this function
+
+cacheSolve <- function(x, ...) {
+        ## Return a matrix that is the inverse of 'x'
+>>>>>>> 7f657dd22ac20d22698c53b23f0057e1a12c09b7
 }
